@@ -7,5 +7,5 @@ class Config():
   FLASK_DEBUG = os.environ.get("FLASK_DEBUG")
   SECRET_KEY = os.environ.get("SECRET_KEY")
   # SQLALCHEMY_DATABASE_URI = os.environ.get("DATABASE_URL")
-  SQLALCHEMY_DATABASE_URI = 'sqlite:///app.db'
+  SQLALCHEMY_DATABASE_URI = 'postgres://hpawltfl:y5MqwxxP2LT0qR3hzR1jBPgVAohkckYJ@jelani.db.elephantsql.com/hpawltfl'
   SQLALCHEMY_TRACK_MODIFICATIONS = False
